@@ -354,6 +354,7 @@
 "Assets/scripts/projectile.cs"
 "Assets/scripts/red.cs"
 "Assets/scripts/spawnManager.cs"
+"Assets/scripts/startScreen.cs"
 "Assets/scripts/yellow.cs"
 -langversion:9.0
 
