@@ -10,7 +10,7 @@ public class playerMovement : MonoBehaviour
     [SerializeField] float speed = 20.0f;
     [SerializeField] float xRange = 20;
     [SerializeField] GameObject[] projectilePrefab;
-    [SerializeField] int projectileIndex;
+    public int projectileIndex;
     // Start is called before the first frame update
 
 

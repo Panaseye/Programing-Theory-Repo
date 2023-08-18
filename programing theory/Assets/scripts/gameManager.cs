@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
@@ -56,8 +57,7 @@ public class gameManager : MonoBehaviour
 
     public void GameOver()
     {
-        gameIsOn = false;
-        GameObject.Find("game over").SetActive(true);
+        SceneManager.LoadScene(0);
     }
 
 }

@@ -346,6 +346,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/scripts/blue.cs"
+"Assets/scripts/colorWheel.cs"
 "Assets/scripts/enemy.cs"
 "Assets/scripts/gameManager.cs"
 "Assets/scripts/limitWall.cs"
