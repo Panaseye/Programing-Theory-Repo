@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class yellow : enemy
+//INHERITENCE
 {
     // Start is called before the first frame update
     void Start()
@@ -12,7 +13,8 @@ public class yellow : enemy
 
     // Update is called once per frame
     void Update()
-    {
+    {// POLYMORPHISM
+        // ABSTRACTION
         Move(20);
     }
 }

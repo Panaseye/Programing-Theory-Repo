@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class blue : enemy
 {
+    //INHERITENCE
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,8 @@ public class blue : enemy
     // Update is called once per frame
     void Update()
     {
+        // POLYMORPHISM
+        // ABSTRACTION
         Move(10);
     }
 }

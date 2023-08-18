@@ -19,9 +19,9 @@ public class limitWall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        
-            Destroy(other.gameObject);
+        // ENCAPSULATION
+
+        Destroy(other.gameObject);
             Debug.Log(gameManager.lives);
             gameManager.lives--;
             Debug.Log(gameManager.lives);

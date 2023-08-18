@@ -27,7 +27,7 @@ public class colorWheel : MonoBehaviour
     void Update()
     {
         if (playerScript.projectileIndex == 0)
-        {
+        {// ABSTRACTION
             blue.transform.position = (current);
             red.transform.position = (next);
             yellow.transform.position = (last);

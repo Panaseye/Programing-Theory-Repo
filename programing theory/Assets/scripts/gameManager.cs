@@ -30,7 +30,7 @@ public class gameManager : MonoBehaviour
         livesText.text = "lives: " + lives;
 
         if (lives == 0)
-        {
+        {// ENCAPSULATION
             Debug.Log("gameover");
             GameOver();
         }

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class enemy : MonoBehaviour
-{
-    
+{// INHERITANCE
+
     [SerializeField] float dificulty = 3;
    
    

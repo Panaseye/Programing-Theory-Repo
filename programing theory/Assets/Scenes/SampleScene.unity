@@ -358,7 +358,7 @@ MonoBehaviour:
   - {fileID: 5642618232904238958, guid: f18b38c7913b6a24c99b6b7f186b594a, type: 3}
   - {fileID: 159976590106935693, guid: a3cc9c53f1702fc44908add4452574bc, type: 3}
   - {fileID: 8944841261390360272, guid: 0cab4ad19a28ad84397951f865528ef7, type: 3}
-  spawnRangeX: 15
+  spawnRangeX: 10
   spawnPosZ: -8
   startDelay: 2
   spawnInterval: 1.5
